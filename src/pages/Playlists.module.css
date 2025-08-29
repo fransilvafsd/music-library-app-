@@ -1,0 +1,54 @@
+.playlists {
+  padding: 20px;
+}
+
+.sectionTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.listItem {
+  display: grid;
+  grid-template-columns: 50px 1fr 1fr 50px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.listItem:hover {
+  background-color: #282828;
+}
+
+.listItem img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.songInfo {
+  padding: 0 20px;
+}
+
+.songInfo h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.songInfo p {
+  font-size: 14px;
+  color: #b3b3b3;
+  margin: 0;
+}
+
+.albumInfo,
+.duration {
+  color: #b3b3b3;
+}
